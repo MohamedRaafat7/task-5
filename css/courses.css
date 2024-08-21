@@ -1,0 +1,727 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    direction: rtl;
+}
+nav {
+    display: flex;
+    width: 100%;
+    height: 44px;
+    background-color: #12376B;   
+    color: white;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+nav p {
+    font-family: 'Arabic UI Display', sans-serif; 
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0; 
+    line-height: 1.4; 
+}
+
+nav p span {
+    font-family: 'Arabic UI Display', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+nav i {
+    margin: 0 10px; 
+    font-size: 18px; }
+
+
+
+
+
+
+
+    header {
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 5px;
+    }
+    
+    header .div-h {
+        width: 1076px;
+        height: 45px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header .div2 {
+      
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+   
+    header .div2 p {
+        font-family: 'Arabic UI Display', sans-serif;
+        font-size: 15.25px;
+        font-weight: 700;
+        line-height: 16px;
+        text-align: center;
+        color: #12376B;
+        margin: 0; 
+        cursor: pointer;
+        width: fit-content;
+    }
+    header .div2 p:hover{
+        border-bottom:3px solid #000000;
+    }
+    .active{
+       
+        border-bottom:3px solid #000000;
+        
+    }
+    header .div2 .dropdown {
+        display: none;
+        
+       
+    }
+    header .div2 .dropdown .btn  {
+        background-color: rgb(255, 255, 255) !important;
+        border: none;
+    }
+    .dropdown-toggle::after {
+        display: none;
+    }
+   
+    header .div2 i {
+      
+        font-size: 40px;
+        color: #000000;
+    }
+    header .div2 .dropdown .dropdown-menu{
+        height: auto;
+        border: none;
+        text-align: center;
+        background-color:rgb(255, 255, 255) ;
+    }
+    header .div2 .dropdown .dropdown-menu li a{
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        font-family: 'Arabic UI Display', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+       
+
+    }
+    header .div2 .dropdown .dropdown-menu li a:hover{
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(15,15,58,1) 35%, rgba(0,0,0,1) 100%);
+        color: white;
+    }
+    
+    header .div1 p {
+        font-family: 'Arabic UI Display', sans-serif;
+        font-size: 15.25px;
+        font-weight: 700;
+        line-height: 16px;
+        text-align: center;
+        color: #D12215;
+        margin: 0; 
+        cursor: pointer;
+    }
+    header .div1 p:hover{
+      
+        border-bottom:3px solid #7a1313;
+       
+    }
+    
+    header .div1 button {
+        width: 163px;
+        height: 45px;
+        background-color: #F04B25;
+        color: white;
+        text-align: center;
+        border: none;
+        border-radius: 22.5px;
+        font-family: 'Arabic UI Display', sans-serif;
+        font-size: 15.25px;
+        font-weight: 700;
+        line-height: 16px;
+        cursor: pointer; 
+    }
+    header .div1 button:hover{
+background-color: #9b3c26;
+transform: scale(1.1);
+    }
+    header .div-h .div1 {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    
+    header .div-h .div2 {
+        display: flex;
+        align-items: center; 
+        gap: 2.5rem;
+    }
+    
+    header .div-h .div3 {
+        display: flex;
+        justify-content: center;
+    }
+   
+    @media only screen and (max-width: 765px){
+        header .div-h .div3 img{
+            width: 100px;
+            height:30px;
+    }
+    
+
+
+}
+
+@media only screen and (max-width: 700px){
+header .div-h .div1{
+    flex-direction: column;
+}
+header .div-h .div2 p{
+    display: none;
+}
+header .div2 .dropdown{
+    display:inline;
+}
+header .div-h {
+    padding: 0px 15px;
+      
+}
+header .div-h .div1{
+    order: 2;
+}
+header .div-h .div2{
+    order: 1;
+}
+header .div-h .div3{
+    order:3;
+}
+header .div-h .div1{
+    display: none;
+}
+header{
+    height: 45vh;
+    align-items: flex-start;
+    padding: 1rem 1rem ;
+  
+}
+  header .div-h .div3 img{
+            width: 120px;
+            height:45px;
+    }
+    header .div-h .div2 {
+        display: flex;
+        align-items: center; 
+        gap: 0rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-1 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .div-section-1 {
+    width: 70%;
+    height: 165px;
+    position: relative;
+    background-color: #12376B;
+    border-radius: 10px;
+  }
+  
+  .div-section-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+  border-radius: 10px;
+ 
+ 
+  
+}
+  
+  .image-text {
+    font-family: IBM Plex Sans Arabic;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 35px; 
+    font-weight: 700;
+    text-align: center;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+.section-2{
+    height:auto;
+    width: 100%;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 3rem 0rem;
+}
+
+.section-2 .div-section-2{
+    width: 1076px;
+    height: 114px;
+    background-color:  #F5F5F5;
+    border: #F5F5F5;
+    border-radius: 10px ;
+    display: flex;
+    
+    justify-content: space-between;
+     padding: 0px 10px;
+    align-items: center;
+}
+
+@media only screen and (max-width:800px){
+    
+    .section-2 .div-section-2 div img{
+        width: 100px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width:450px){
+   
+    .section-2 .div-section-2{
+        flex-wrap: wrap;
+        height: 80%;
+        gap: 0.3rem;
+      
+    }
+    .section-2 .div-section-2 div img{
+        width: 136.63px;
+        height: 62.86px;
+       
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-5{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.div-section-5{
+    width: 1076px;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+
+
+.section-5 .div-section-5  .div1-section-5{
+    display: flex;
+    
+}
+
+  .section-5 .div-section-5 .div1 .div1-section-5 span{
+    font-family: IBM Plex Sans Arabic;
+    font-size: 18px;
+    font-weight: 400;
+    color: #12376B;  
+      
+
+  }
+
+  .section-5 .div-section-5  .div2-section-5{
+    display: flex;
+    justify-content: space-between;
+  }
+  .section-5 .div-section-5  .div2-section-5 .p1{
+    width: 557px;
+   
+    font-family: IBM Plex Sans Arabic;
+    font-size: 40px;
+    font-weight: 700;
+   
+    color: #12376B;
+
+
+  }
+  .section-5 .div-section-5  .div2-section-5 .p1 span{
+    color: #286CD5;
+  }
+
+  .section-5 .div-section-5  .div2-section-5 .p2{
+    width: 411px;    
+    font-family: IBM Plex Sans Arabic;
+    font-size: 18px;
+    font-weight: 400;
+    color: #686868;
+  }
+  .section-5 .div-section-5  .div3-section-5{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .section-5 .div-section-5 .div3-section-5 .dv1 .card {
+    width: 23%;
+    min-width: 150px;
+    max-width: 250px;
+    border: #F5F5F5    ;
+    border-radius: 10px;
+    height: 480px;
+
+}
+
+
+
+
+.section-5 .div-section-5  .div3-section-5 .dv1 .card 
+  {
+    background-color: #F5F5F5
+    ;
+    border-radius: 10px;
+  }
+  
+  .section-5 .div-section-5  .div3-section-5 .dv1 .card 
+  .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+ 
+  .section-5 .div-section-5  .div3-section-5 .dv1 .card 
+  .card-body h5{
+   
+
+
+    font-family: IBM Plex Sans Arabic;
+    font-size: 30px;
+    font-weight: 700;
+    
+   
+     }
+     .section-5 .div-section-5  .div3-section-5 .dv1 .card 
+  .card-body p{
+    width: 205px;
+   
+    font-family: IBM Plex Sans Arabic;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25x;
+    
+    color: #686868;
+
+  }
+  .section-5 .div-section-5  .div3-section-5 .dv1 .card 
+  .card-body button{
+   width: 170px;
+   height: 55px;
+   border: none;
+   
+  }
+  .section-5 .div-section-5  .div3-section-5 .dv1 .card 
+  .card-body button:hover{
+    transform: scale(1.03);
+    filter: brightness(80%);
+  }
+
+  .section-5 .div-section-5  .div5-section-5 {
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-5 .div-section-5  .div5-section-5 button{
+    width: 174px;
+    height: 50px;
+  
+    border-radius: 5px ;
+    background-color: #F04B25    ;
+
+  }
+
+  .section-5 .div-section-5  .div5-section-5 button:hover{
+    background-color: #9b3c26;
+    transform: scale(1.05);
+  }
+
+
+
+  @media only screen and (max-width: 1010px) {
+    .section-5 .div-section-5 {
+      width: 90%; /* Adjust the width as needed */
+      
+    }
+  
+    .section-5 .div-section-5 .div3-section-5 .dv1 .card {
+      width: 45%; /* Adjust the width as needed */
+    }
+    .section-5 .div-section-5 .div3-section-5 {
+       
+        justify-content: center;
+    }
+    .section-5 .div-section-5  .div2-section-5{
+        gap: 20px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+  
+
+
+
+
+
+
+
+    
+
+
+
+ 
+ footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    
+}
+
+     
+
+footer .sec-foot{
+    
+    width: 90%;   
+    background-color: #F04B25;   
+    border-radius: 10px;
+    padding: 4rem 6rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+
+footer .sec-foot .main{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .sec-foot .main .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+footer .sec-foot .main .right img {
+    width: 160px;
+    height: 40px;
+    margin-bottom: 1rem;
+}
+
+footer .sec-foot .main .right .r1{
+    display: flex;
+    font-family: "IBM Plex Sans Arabic", sans-serif; 
+        font-weight: 300;
+        color: #ffff;
+        font-size: 1.2rem;
+        
+        gap: 1rem;
+}
+footer .sec-foot .main .right .icons{
+    display: flex;
+    gap: 1rem;
+}
+
+footer .sec-foot .main .left{
+    display: flex;
+    gap: 7rem;
+}
+footer .sec-foot .main .left .l2{
+display: flex;
+flex-direction: column;
+}
+ul{
+    list-style: none;
+    
+}
+footer .sec-foot .main .left .l2 ul li {
+    margin-top: 20px;
+font-family: IBM Plex Sans Arabic;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+}
+
+
+footer .sec-foot .main .left .l2 ul .lh{
+    font-size: 18px;
+    font-weight: 700;
+} 
+.hr-foot{
+    width: 90%;
+   
+    
+}
+
+footer .sec-foot .div-end{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+footer .sec-foot .div-end div p{
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+   
+
+}
+footer .sec-foot .div-end .first {
+display: flex;
+gap: 1rem;
+;
+}
+.v11 {
+    border-left: 1px solid #E5E5E5 ;
+  
+    width: 1.33px;
+    height: 18.67px;
+   
+   
+
+  }
+
+  @media only screen and (max-width: 940px){
+    footer .sec-foot {
+        padding: 2rem 1rem; 
+      }
+  
+      footer .sec-foot .main {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 2rem; 
+      }
+  
+      footer .sec-foot .main .right {
+        text-align: center; 
+        gap: 0.5rem;
+      }
+  
+      footer .sec-foot .main .right .icons {
+        justify-content: center; 
+      }
+  
+      footer .sec-foot .main .left {
+        gap: 2rem; 
+      }
+    }
+    @media only screen and (max-width: 600px){
+        footer .sec-foot .div-end {
+           
+           flex-direction: column;
+           align-items: center;
+            }
+
+    }
+
+
+
+    i:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+   a{
+    text-decoration: none;
+    color: white;
+   }
