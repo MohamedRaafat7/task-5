@@ -377,6 +377,7 @@ border:#F5F5F5 ;
     .section-1 .div-section-1 .div3 .bt1{
         margin-bottom: 10px;
     }
+   
 }
 @media only screen and (max-width:360px){
     .section-1 .div-section-1{
@@ -392,6 +393,11 @@ border:#F5F5F5 ;
     .section-1 .div-section-1 .div3 .bt1:hover{
       
         transform: scale(1);
+    }
+    .section-1 .div-section-1 .div1 .h2 ,
+    .section-1 .div-section-1 .div1 .h22 ,
+    .section-1 .div-section-1 .div1 .h23{
+        font-size: 40px;
     }
 }
 
@@ -1526,11 +1532,13 @@ gap: 1rem;
       }
     }
     @media only screen and (max-width: 600px){
+       
         footer .sec-foot .div-end {
            
            flex-direction: column;
            align-items: center;
             }
+           
 
     }
 
@@ -1544,3 +1552,6 @@ gap: 1rem;
     text-decoration: none;
     color: white;
    }
+
+
+ 
