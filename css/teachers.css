@@ -342,6 +342,7 @@ header .div-h .div3 img{
     
     display: flex;
     flex-direction: column;
+    gap: 1rem;
   }
   
   .text-content .d1{
