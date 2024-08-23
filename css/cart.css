@@ -1,3 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+
+
+
+
+
+
 *{
     padding: 0;
     margin: 0;
@@ -6,6 +14,7 @@
 }
 body{
     direction: rtl;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
 }
 nav {
     display: flex;
@@ -391,6 +400,7 @@ header{
     height: 533px;
     border-radius: 10px ;
     width: 100%;
+    object-fit: cover;
 }
 .left{
     display: flex;
@@ -466,9 +476,27 @@ margin-top: 0.5rem;
 .section-1 .d-1 .d3 button:hover{
     background-color: #a81a10;
 }
-@media only screen and (max-width: 710px){
+@media only screen and (max-width: 885px){
     .left{
         padding: 0rem 1rem;
+    }
+    .d-left h3{
+        
+        font-size: 25px;
+     
+    
+    }
+    .form-check-label {
+       
+        font-size: 18px;      
+    
+    }
+    .d-left h4{
+        font-size: 20px;
+    }
+    .section-1 .d-1 .d1 h3,
+    .section-1 .d-1 .d1 h3 span{
+        font-size: 35px;
     }
 }
 
