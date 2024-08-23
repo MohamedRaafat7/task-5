@@ -359,7 +359,7 @@ text-align: right;
 
 }
 .section-1 .div-section-1 .div1 .h2{
-    color: #12376B;
+    color: #10458f;
 }
 .section-1 .div-section-1 .div1 .h22{    
 color: #F5A805;
@@ -577,7 +577,7 @@ border:#F5F5F5 ;
 }
 .horizontal-line {
     border: none; 
-    border-top: 1px solid #12376B; 
+    border-top: 2px solid #194d95; 
     height: 0; 
     width: 63px;
     margin-left: 5px;
@@ -589,7 +589,7 @@ border:#F5F5F5 ;
     font-family: IBM Plex Sans Arabic;
     font-size: 18px;
     font-weight: 400;
-    color: #12376B;    
+    color: #164c97;    
 
   }
 
@@ -606,7 +606,7 @@ border:#F5F5F5 ;
     font-weight: 700;
     line-height: 62.28px;
     text-align: right;
-    color: #12376B;
+    color: #154f9f;
 }
 .section-3 .div-section-3 .div2 p span{
 color: #F4A905;
